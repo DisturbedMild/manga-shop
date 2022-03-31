@@ -1,0 +1,27 @@
+.input label {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.input input {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.input input[type="number"] {
+  text-align: center;
+}
+

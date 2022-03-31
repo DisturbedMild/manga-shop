@@ -1,0 +1,33 @@
+.total {
+  font-size: 24px;
+  line-height: 36px;
+  color: blue;
+  display: flex;
+  font-weight: 700;
+  justify-content: flex-start;
+  margin: 0.5rem 0;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  border-radius: 25px;
+  margin: 0px 8px;
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #4481eb,
+    #25aae1
+  );
+  padding: 0.5rem 2rem;
+  color: #fff;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+}
