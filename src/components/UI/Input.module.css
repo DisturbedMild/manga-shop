@@ -4,6 +4,7 @@
   font-weight: 700;
   text-align: right;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .input input {
@@ -24,4 +25,16 @@
 .input input[type="number"] {
   text-align: center;
 }
+.input + .input {
+  margin-top: 20px;
+}
 
+.input.error label {
+  color: #cc0033;
+}
+
+
+.input.error input {
+  background-color: #fce4e4;
+  border-bottom: 1px solid #cc0033;
+}

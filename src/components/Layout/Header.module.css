@@ -55,3 +55,10 @@
     transform: translateY(0);
   }
 }
+
+.nav-buttons {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
